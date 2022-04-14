@@ -1,0 +1,109 @@
+body{
+    display: flex;
+    background-color: whitesmoke;
+    margin: 0px;
+}
+nav{
+    position: fixed;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    height:100vh;
+    width: 15vw;
+    background-color: darkslateblue;
+    border: solid;
+    border-color: darkslateblue; 
+  
+}
+
+.titre{
+    display: block;
+    height: 12vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.titre_partie{
+    margin-left: 14vw;
+    display: inline-flex;
+    background-color: rgb(149, 139, 219);
+    height: 12vh;
+    width: 85vw;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+
+}
+
+.retext{ height: 83vh;margin-top: 0px;}
+
+.description{
+    display: flex;
+    margin-left: 18vw;
+    margin-top: 5vh;
+    width: 77vw;
+    height: 63vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description p{
+    width: 60vh;
+    text-align: center;
+}
+
+.PDF{
+    display: flex;
+    margin-left: 18vw;
+    margin-top: 5vh;
+    width: 77vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.PDF p{
+    width: 50vh;
+    text-align: center;
+}
+
+u{
+    text-decoration-color: rgb(149, 139, 219); 
+    text-decoration-style: double;
+}
+
+nav h2{color: whitesmoke; padding-top: 40px;}
+
+nav h1{
+    color: whitesmoke;
+}
+
+#MENU ul{
+    margin: 0; padding: 0; list-style-type: none; text-align: center;
+   } 
+
+#MENU li a{ 
+   display: block; width: 100px; color: whitesmoke; text-decoration: none; padding: 15px; 
+   } 
+
+#MENU li a:hover{
+   color: #FFD700; 
+} 
+
+nav figure img{
+    width: 200px;
+    border-radius: 20%;
+}
+
+section{
+    clear: both; 
+ } 
+
+ #MENU li:hover ul{
+ display: block;
+ }
+ 
+ #MENU ul li {
+     float: none;
+ }
+
+
