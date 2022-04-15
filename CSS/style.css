@@ -48,8 +48,25 @@ nav{
 }
 
 .description p{
-    width: 60vh;
+    width: 65vh;
     text-align:justify;
+    font-size: larger;
+}
+
+.description img{
+    margin-top: 10vh;
+    width: 10vw;
+    height: 20vh;
+    text-align:justify;
+}
+
+.description div{
+    display: inline;
+}
+
+.Special img{
+    width: 15vw;
+    height: 18vh;
 }
 
 .PDF{
@@ -64,6 +81,11 @@ nav{
 .PDF p{
     width: 50vh;
     text-align: center;
+}
+
+.PDF a{
+    text-decoration: none;
+    color:rgb(149, 139, 219); 
 }
 
 u{
