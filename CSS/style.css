@@ -16,6 +16,21 @@ nav{
   
 }
 
+.Partie1,.Partie2{
+    display: flex;
+    margin-left: 18vw;
+    margin-top: 5vh;
+    width: 77vw;
+    height: 31vh;
+    font-size: larger ;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Partie1 p,.Partie2 p{
+    width: 65vh;
+    text-align: justify;
+}
 .titre{
     display: block;
     height: 12vh;
@@ -81,14 +96,17 @@ nav{
 .PDF p{
     width: 50vh;
     text-align: center;
+    font-size: larger;
 }
 
 .PDF a{
     text-decoration: none;
     color:rgb(149, 139, 219); 
+    font-size: larger;
 }
 
 u{
+    font-size: larger;
     text-decoration-color: rgb(149, 139, 219); 
     text-decoration-style: double;
 }
@@ -100,11 +118,12 @@ nav h1{
 }
 
 #MENU ul{
-    margin: 0; padding: 0; list-style-type: none; text-align: center;
+    margin: 0; padding: 0; list-style-type: none ; width: 12vw;
    } 
 
 #MENU li a{ 
-   display: block; width: 100px; color: whitesmoke; text-decoration: none; padding: 15px; 
+    margin: 0;
+   display: block; width: 9vw; color: whitesmoke; text-decoration: none; padding: 1vh; 
    } 
 
 #MENU li a:hover{
@@ -112,7 +131,7 @@ nav h1{
 } 
 
 nav figure img{
-    width: 200px;
+    width: 10vw;
     border-radius: 20%;
 }
 
