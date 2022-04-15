@@ -35,7 +35,7 @@ nav{
 
 }
 
-.retext{ height: 83vh;margin-top: 0px;}
+.retext{ height: 86vh;margin-top: 0px;}
 
 .description{
     display: flex;
@@ -49,7 +49,7 @@ nav{
 
 .description p{
     width: 60vh;
-    text-align: center;
+    text-align:justify;
 }
 
 .PDF{
