@@ -1,0 +1,12 @@
+.welcome{
+    width: 98vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.welcome div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

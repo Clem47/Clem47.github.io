@@ -1,204 +1,90 @@
 <!DOCTYPE html>
-<html lang="Fr">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/about_me.css">
+    <link rel="stylesheet" href="./CSS/welcome.css">
+    <link rel="stylesheet" href="./CSS/project.css">
+    <link rel="stylesheet" href="./CSS/contact.css">
     <title>Portfolio</title>
 </head>
 <body>
-    <nav id="MENU">
-        <figure>
-            <img src="./image/20220415_142633.jpg">
-        </figure>
-        <div class="titre">
-            <h1>Mon Portfolio</h1>
+    <header>
+        <div class="menu">
+            <a href="#welcome"><p><b>Home page</b></p></a>
         </div>
-        <div>
-            <ul>
-                <li>
-                    <a href="#Presentation">Présentation</a>
-                </li>
-                <li>
-                    <a href="#Projet1">Pong</a>
-                </li>
-                <li>
-                    <a href="#Projet2">Machine virtuelle</a>
-                </li>
-                <li>
-                    <a href="#Projet3">Cave à vin</a>
-                </li>
-                <li>
-                    <a href="#Projet4">Création entreprise</a>
-                </li>
-                <li>
-                    <a href="#Projet5">Site web entreprise</a>
-                </li>
-                <li>
-                    <a href="#Projet6">Lowatem</a>
-                </li>
-                <li>
-                    <a href="#Projet7">Snake</a>
-                </li>
-                <li>
-                    <a href="#Projet8">Questionnaire</a>
-                </li>
-            </ul>
+        <div class="menu">
+            <a href="#about_me"><p><b>About me</b></p></a>
         </div>
-        <div>
-            <h2>Me contacter</h2>
+        <div class="menu">
+            <a href="#project"><p><b>Project</b></p></a>
+        </div>
+        <div class="menu">
+            <a href="#contact"><p><b>Contact</b></p></a>
+        </div>
+    </header>
+    <nav>
+        <a href=""><img class="mail" src="./picture/mail.png" alt="mail picture"></a>
+        <a href="https://github.com/Clem47"><img class="git" src="" alt="git picture"></a>
+        <a href="https://fr.linkedin.com/in/cl%C3%A9ment-crispel-684484253"><img class="linkedin" src="" alt="linkedin picture"></a>
+        <div> 
         </div>
     </nav>
-    <article>
-        <div class="titre_partie" id="Presentation">
-            <h1>Présentation</h1>
-         </div>
-         <div class="retext">
-            <div class="Partie1">
-                <u><h3>Qui suis-je ?</h3></u>
-                <p>Je m’appelle CRISPEL Clément j'ai 22 ans et je suis actuellement étudiant à l'IUT informatique de Bordeaux.<br> Je possède un bac STI2D et un BTS System Numérique informatique et réseaux. <br> J'ai travaillé 1 an dans une entreprise d'automatisation, et informatique industrielle </p>
-            </div>
-            <div class="Partie2">
-                <u><h3>Mes passe temps</h3></u>
-                <p>En tant que grand amateur de culture, mes passe-temps se résume à regarder des films et des séries, lire des mangas , jouer a des jeux (vidéo et de société) et à écouter de la musique ou des podcasts.</p>
-            </div>
-         </div>
-         <div class="titre_partie"  id="Projet1">
-            <h1>Pong</h1>
-        </div>
-         <div class="retext">
-        <!--<img src="./image/Pong.png" alt="retext du Pong">-->
-            <div class="description">
-                <u><h3>Description</h3></u>
-                <p>L'objectif de ce projet était de créer un jeu dans le style de "pong". Nous avions également 2 contraintes pour ce projet, la première était d'utiliser le logiciel Processing qui utilise le langage java et la seconde était de se limiter à des classes sans méthodes.</p>
-                <figure class="Special">
-                    <img src="./image/logo_java.png" alt="Logo java">
-                    <img src="./image/Processing-Logo.png" alt="Logo processing">
-                </figure>
-            </div>
-            <div class="PDF">
-               <p> Pour plus d'information <a href="./src/Pong.html"> <b> cliquez ici</b> </a></p>
-            </div>
-         </div>
-         <div class="titre_partie"  id="Projet2">
-            <h1>Machine virtuelle</h1>
-        </div>
-         <div class="retext">
-            <!--<img src="./image/VMWare.png" alt="retext Machine virtuelle">-->
-            <div class="description">
-                <u><h3>Description</h3></u>
-                <p>Pour ce projet nous devions installer un parc de machines sous Linux, ces machines devaient avoir des logiciels et langages préinstaller tel que git, rust ou encore visual studio code, nous devions également configurer deux utilisateurs avec leur permission sur chaque machine.</p>
-                <figure>
-                    <img src="./image/git_logo.png" alt="Logo git">
-                    <div class="Special">
-                        <img class="Special" src="./image/VMW_logo.png" alt="Logo VMWare">
-                    </div>
-                </figure>
-            </div>
-            <div class="PDF">
-               <p> Pour plus d'information <a href="./src/MachineVirtuelle.html"> <b> cliquez ici</b> </a></p>
-            </div>
-         </div>
-         <div class="titre_partie"  id="Projet3">
-            <h1>Cave à vin</h1>
-        </div>
-         <div class="retext">
-            <!--<img src="./image/BDD.png" alt="retext cave a vin">-->
-            <div class="description">
-                <u><h3>Description</h3></u>
-                <p>Pour ce projet il nous était demandé de créer une base de données qui répond au besoin d'une entreprise de redistribution de vins, et de créer la maquette d'un exécutable permettant d'exploiter la base de donner suivant des spécifications donner par l'entreprise cliente.</p>
-                <figure>
-                    <img src="./image/sql-logo.png" alt="Logo SQL">
-                    <img src="./image/win_design_logo.png" alt="Logo Win design">
-                </figure>
-            </div>
-            <div class="PDF">
-               <p> Pour plus d'information <a href="./src/CaveAVin.html"> <b> cliquez ici</b> </a></p>
-            </div>
-         </div>
-         <div class="titre_partie"  id="Projet4">
-            <h1>Création entreprise</h1>
-        </div>
-         <div class="retext">
-            <!--<img src="./image/Novas.png" alt="retext Novas">-->
-            <div class="description">
-                <u><h3>Description</h3></u>
-                <p>L'objectif de ce projet est de créer une entreprise innovante et de faire une étude tu marchais pour pouvoir pérenniser dans celui-ci</p>
-            </div>
-            <div class="PDF">
-               <p> Pour plus d'information <a href="./src/CreaEntrprise.html"> <b> cliquez ici</b> </a></p>
-            </div>
-         </div> 
-         <div class="titre_partie"  id="Projet5">
-            <h1>Site web entreprise</h1>
-        </div>
-         <div class="retext">
-        <!--<img src="./image/SiteNovas.png" alt="retext du site Novas">-->
-        <div class="description">
-            <u><h3>Description</h3></u>
-            <p>Pour ce projet nous devions créer le site web d'une entreprise fictive et établire le profil type (personna) de l'individu qui est ciblé par le site web, nous devions également penser a la façon d'on l'utilisateur utilise le site. </p>
-            <figure>
-                <img  src="./image/html_logo.png" alt="Logo html">
-                <img  src="./image/css_logo.png" alt="Logo css">
-            </figure>
-        </div>
-        <div class="PDF">
-           <p> Pour plus d'information <a href="./src/WebEntreprise.html"> <b> cliquez ici</b> </a></p>
-        </div>
-         </div>
-         <div class="titre_partie"  id="Projet6">
-            <h1>Lowatem</h1>
-        </div>
-         <div class="retext">
-            <!--<img src="./image/Lowatem.png" alt="retext du Lowatem">-->
-            <div class="description">
-                <u><h3>Description</h3></u>
-                <p>Dans ce projet nous devions dans un premier temps implementer, une à une, des règles dans un jeu de plateau créer pour l'occasion, puis dans un second temps nous devions créer deux IA capable de jouer au jeu.</p>
-                <figure class="Special">
-                    <img  src="./image/logo_java.png" alt="Logo java">
-                    <img  src="./image/NetBeans-Logo.png" alt="Logo netBeans">
-                </figure>
-            </div>
-            <div class="PDF">
-               <p> Pour plus d'information <a href="./src/Lowatem.html"> <b> cliquez ici</b> </a></p>
-            </div>
-         </div>
-         <div class="titre_partie"  id="Projet7">
-            <h1>Snake</h1>
-        </div>
-         <div class="retext">
-            <!--<img src="./image/Snake.png" alt="retext du Snake">-->
-            <div class="description">
-                <u><h3>Description</h3></u>
-                <p>Dans ce projet il nous a été demander de créer un travail dirigé accessible au débutant pour la journée porte ouvert de l'iut informatique de Bordeaux. Nous avons donc décidé de créer un jeu "Snake" sur processing.</p>
-                <figure class="Special">
-                    <img  src="./image/logo_java.png" alt="Logo java">
-                    <img  src="./image/Processing-Logo.png" alt="Logo processing">
-                </figure>
-            </div>
-            <div class="PDF">
-               <p> Pour plus d'information <a href="./src/Snake.html"> <b> cliquez ici</b> </a></p>
-            </div>
-         </div>
-         <div class="titre_partie"  id="Projet8">
-            <h1>Questionnaire</h1>
-        </div>
-         <div class="retext">
-            <!--<img src="./image/Questionnaire.png" alt="retext du Questionnaire">-->
-            <div class="description">
-                <u><h3>Description</h3></u>
-                <p>L'objectif de ce projet était de créer un questionnaire de satisfaction au travail pour l'équipe de maintenance d'une entreprise, ce questionnaire ce présente sous forme d'application mobile et devait pouvoir être entièrement édité depuis l'application. </p>
-                <figure>
-                    <img src="./image/c_sharp-logo.png" alt="Logo C#">
-                    <img src="./image/mysql-logo.png" alt="Logo MySQL">
-                    <img src="./image/Xamarin-logo.png" alt="Logo xamarin">
-                </figure>
-            </div>
-            <div class="PDF">
-               <p> Pour plus d'information <a href="./src/Questionnaire.html"> <b> cliquez ici</b> </a></p>
+    <div class="container" id="container">
+        <div class="welcome" id = "welcome">
+            <div>
+                <p>Welcome to my Portfolio (WIP)</p>
             </div>
         </div>
-    </article>
+        <div class="about_me" id="about_me">
+            <div class="picture">
+                <img src="./picture/moi.jpg" alt="picture of me">
+            </div>
+            <div></div>
+            <div class="who_i_am">
+                <p><b><u>Who am i ?</u></b></p>
+                <p>I'm french student in computer science at the University of Bordeaux.
+                <br>I pass also an additional 2 years degree in robotic at the University of Bordeaux.</p>
+                <p>For now i’m looking for an internship abroad to improve my english and discover other countries.
+                <br>Later i’d like to be either full stack developer or work on AI and robots. </p>
+                <p> As a great lover of culture, my hobbies are watching films and series, reading manga, playing games (video and board games) and listening to music or podcasts.
+                <br> In my free time i'm also vice-president and vice-treasurer of a student association.</p>
+            </div>
+            <div></div>
+            <div class="who_i_am">
+                <p>(WIP)</p>
+            </div>
+        </div>
+        <div class="project" id="project">
+            <div class="title" id="title">
+                <p>Project</p>
+            </div>
+            <div>
+                <p>(WIP)</p>
+            </div>
+            <div>
+                <p>(WIP)</p>
+            </div>
+            <div>
+                <p>(WIP)</p>
+            </div>
+            <div>
+                <p>(WIP)</p>
+            </div>
+            <div>
+                <p>(WIP)</p>
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <p>(WIP)</p>
+        </div>
+    </div>
+    <div class="button" id="button">
+        <img src="./picture/down.png" alt="down button">
+    </div>
+    <script src="./JS/project.js"></script>
 </body>
 </html>

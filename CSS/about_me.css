@@ -1,0 +1,35 @@
+.about_me div{
+    background-color: darkslategrey;
+    height: 50%;
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 0.2%;
+}
+
+.about_me{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vw;
+    width: 98vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.about_me img{height: 100%;
+              width: 100%;}
+
+.about_me .picture{background-color:transparent;
+                   height: 41%;
+                   width: 16%;}
+
+.about_me .who_i_am{background-color:transparent;
+                    height: 41%;
+                    width: 16%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;}
+
+.about_me b{
+    color: darkslateblue;
+    font-size:larger;
+}
