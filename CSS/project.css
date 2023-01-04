@@ -1,3 +1,11 @@
+:root {
+    --jet : #292929;
+    --lavenderWeb : #E6E2F3;
+    --frenchLilac : #78668F;
+    --lemonMeringue : #FDF0C4;
+    --naplesYellow : #F9DB6D;
+}
+
 .project{
     display: flex;
     flex-direction: row;
@@ -7,7 +15,7 @@
     align-items: center;
     scroll-snap-type: x mandatory;
     overflow-y: hidden;
-    overflow-x: auto;}
+    overflow-x: hidden;}
 
 .project > div{
     scroll-snap-align: center;
@@ -20,18 +28,18 @@
 }
 
 .project .title{
-    border: solid darkslategray;
+    border: solid var(--naplesYellow);
     width: 99vw;
     height: 100%;
-    background-color: darkslategray;
+    background-color: var(--naplesYellow);
 }
 
 .project p{
-    color: darkslategray;
+    color: var(--naplesYellow);
     font-size: larger;
 }
 
 .project .title p{
-    color: #f7ece1;
+    color: var(--jet);
     font-size: larger;
 }

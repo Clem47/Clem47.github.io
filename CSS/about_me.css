@@ -1,5 +1,13 @@
+:root {
+    --jet : #292929;
+    --lavenderWeb : #E6E2F3;
+    --frenchLilac : #78668F;
+    --lemonMeringue : #FDF0C4;
+    --naplesYellow : #F9DB6D;
+}
+
 .about_me div{
-    background-color: darkslategrey;
+    background-color: var(--naplesYellow);
     height: 50%;
     margin-left: 4%;
     margin-right: 4%;
@@ -23,6 +31,7 @@
                    width: 16%;}
 
 .about_me .who_i_am{background-color:transparent;
+                    color: var(--lemonMeringue);
                     height: 41%;
                     width: 16%;
                     display: flex;
@@ -30,6 +39,6 @@
                     align-items: center;}
 
 .about_me b{
-    color: darkslateblue;
+    color: var(--naplesYellow);
     font-size:larger;
 }
