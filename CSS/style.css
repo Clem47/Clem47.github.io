@@ -11,7 +11,7 @@ body{
     margin-left: 1vw;
     flex-direction: column;
     background-color: var(--jet);
-    overflow-y: hidden;
+    /*overflow-y: hidden;*/
 }
 
 header{display: flex; 
@@ -81,6 +81,11 @@ nav div{
     background-color: var(--lemonMeringue);
     width: 3.5%;
     height: 27%;
+}
+
+::-webkit-scrollbar {
+	width: 0;
+	background: transparent;
 }
 
 .button_up{
