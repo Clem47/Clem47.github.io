@@ -3,8 +3,8 @@ const linkdin = document.querySelector(".linkedin")
 const mail = document.querySelector(".mail")
 const upButton = document.getElementById("button_up")
 const downButton = document.getElementById("button_down")
-const leftButton = document.getElementById("button_left")
-const rightButton = document.getElementById("button_right")
+//const leftButton = document.getElementById("button_left")
+//const rightButton = document.getElementById("button_right")
 var x = 0;
 var y = 0;
 
@@ -20,7 +20,6 @@ document.getElementById("button_down").onclick = function () {
     if (x < 3){
         x += 1;
         switchPosition();
-        colorSwitch();
     }
 };
 
@@ -59,19 +58,21 @@ function switchPosition(){
             window.location.hash = "#contact";
             break;
     }
+    colorSwitch();
 }
 
 function colorSwitch(){
     if(x == 2 && y == 0){
-        upButton.src = "./picture/Dark/button_up_revert.png";
-        downButton.src = "./picture/Dark/button_down_revert.png";
-        leftButton.src = "./picture/Dark/button_left_revert.png";
-        rightButton.src = "./picture/Dark/button_right_revert.png";
+        document.getElementById("button_up").src = "../picture/Dark/button_up_revert.png";
+        downButton.src = "../picture/Dark/button_down_revert.png";
+        //leftButton.src = "./picture/Dark/button_left_revert.png";
+        //rightButton.src = "./picture/Dark/button_right_revert.png";
+        console.log('toto');
     }
     else{
-        upButton.src = "./picture/Dark/button_up.png";
-        downButton.src = "./picture/Dark/button_down.png";
-        leftButton.src = "./picture/Dark/button_left.png";
-        rightButton.src = "./picture/Dark/button_right.png";
+        upButton.src = "../picture/Dark/button_up.png";
+        downButton.src = "../picture/Dark/button_down.png";
+        //leftButton.src = "./picture/Dark/button_left.png";
+        //rightButton.src = "./picture/Dark/button_right.png";
     }
 }
