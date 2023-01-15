@@ -1,0 +1,14 @@
+@import "../../utils/color.css";
+@import "../../utils/footer.css";
+@import "../../utils/a.css";
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    background-color: var(--jet);
+    line-height: 1;
+    font: inherit;
+    vertical-align: baseline; }
+

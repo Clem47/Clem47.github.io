@@ -1,0 +1,39 @@
+@import "../utils/color.css";
+@import "../utils/footer.css";
+@import "../utils/a.css";
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    background-color: var(--jet);
+    line-height: 1;
+    font: inherit;
+    vertical-align: baseline; }
+
+header {
+    margin: 50px auto;
+    width: 90%;
+    height: 73px;
+    display: flex; }
+
+header .header_link {
+    align-self: flex-end;
+    margin-left: 50px;
+    border-bottom: 0px; }
+    
+.push-right {
+    margin-left: auto !important; }
+
+.padding {
+    padding-bottom: 150px; }
+
+#text{
+    color: var(--lemonMeringue);
+    align-self: center;
+    padding-left: 7%;
+    line-height: 64px;
+    font-size: 64px;
+    margin-top: 150px; }
+
