@@ -9,8 +9,12 @@ body{
     font-size: 100%;
     background-color: var(--jet);
     line-height: 1;
-    font: inherit;
+    overflow: hidden;
     vertical-align: baseline; }
+
+h1 {
+    font-size: 64px;
+    line-height: 3rem; }
 
 header {
     margin: 50px auto;
@@ -37,3 +41,18 @@ header .header_link {
     font-size: 64px;
     margin-top: 150px; }
 
+@media all and (max-width: 599px) {
+
+    #text h1 {
+        font-size: 2rem;
+        line-height: 3rem; } }
+      
+@media all and (min-width: 600px) and (max-width: 1000px) {
+    #text h1 {
+        font-size: 2.5rem;
+        line-height: 3.75rem; } }
+      
+@media all and (min-width: 1001px) {
+    #text h1 {
+        font-size: 3.5rem;
+        line-height: 5rem; } }
