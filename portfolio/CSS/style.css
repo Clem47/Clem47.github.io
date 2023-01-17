@@ -104,3 +104,7 @@ body{
     .pTitle p{
         color: var(--jet);
     }
+
+    .none{
+        display: none;
+    }
