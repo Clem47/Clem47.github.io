@@ -6,9 +6,49 @@ body{
     margin: 0;
     padding: 0;
     border: 0;
+    display: flex;
+    flex-direction: column;
     font-size: 100%;
     background-color: var(--jet);
     line-height: 1;
     font: inherit;
     vertical-align: baseline; }
+    
+    header {
+        width: 100%;
+        height: 7%;
+        position: absolute;
+        top: 0px; }
+    
+    header nav {
+            width: 90%;
+            max-width: 750px;
+            border-bottom: solid var(--lemonMeringue) 1px;
+            height: 100%;
+            margin: auto;
+            display: flex;
+            justify-content: center; }
+    
+    header nav div {
+            width: 33%;
+            max-width: 180px;
+            align-self: center;
+            text-align: center; }
+    
+    header nav div .category{
+        color: var(--naplesYellow);
+        width: auto;}
+    
+    .isActive{
+        border: solid 1px var(--lemonMeringue);
+        color: var(--lemonMeringue);
+        border-radius: 25px;
+        font-weight: bold;
+    }
 
+    header nav div .category:hover{
+        background-color: var(--lemonMeringue);
+        border: solid 1px var(--lemonMeringue);
+        color: var(--jet);
+        border-radius: 25px;
+    }
