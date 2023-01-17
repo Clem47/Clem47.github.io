@@ -50,6 +50,7 @@ body{
         border: solid 1px var(--lemonMeringue);
         color: var(--jet);
         border-radius: 25px;
+        transition: background 0.4s cubic-bezier(0.33, 0.66, 0.66, 1);
     }
 
     .projects{
