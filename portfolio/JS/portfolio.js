@@ -14,8 +14,9 @@ allButton.addEventListener('click', function() {
   if( this.classList.contains('notActive')){
     let active = document.querySelector('div.isActive');
     if(active!=null){
-      displayAll('project');
-      displayOff('none')
+      displayAll('robot');
+      displayAll('soft');
+      displayAll('web')
       active.click();
     }
   }
@@ -27,8 +28,9 @@ webButton.addEventListener('click', function() {
   if( this.classList.contains('notActive')){
     let active = document.querySelector('div.isActive');
     if(active!=null){
-      displayOff('project');
-      displayAll('web')
+      displayOff('robot');
+      displayOff('soft');
+      setTimeout(() =>{displayAll('web')},100)
       active.click();
     }
   }
@@ -40,8 +42,9 @@ softButton.addEventListener('click', function() {
   if( this.classList.contains('notActive')){
     let active = document.querySelector('div.isActive');
     if(active!=null){
-      displayOff('project');
-      displayAll('soft')
+      displayOff('robot');
+      displayOff('web');
+      setTimeout(() =>{displayAll('soft')},100)
       active.click();
     }
   }
@@ -53,8 +56,9 @@ softButton.addEventListener('click', function() {
   if( this.classList.contains('notActive')){
     let active = document.querySelector('div.isActive');
     if(active!=null){
-      displayOff('project');
-      displayAll('robot')
+      displayOff('soft');
+      displayOff('web');
+      setTimeout(() =>{displayAll('robot')},100)
       active.click();
     }
   }
@@ -65,13 +69,23 @@ softButton.addEventListener('click', function() {
   function displayOff(param){
     let displayOff = document.getElementsByClassName(param);
     for(let i = 0; i < displayOff.length; i++){
-      displayOff[i].style.display = "none";
+      displayOff[i].style.opacity='0';
     }
+    setTimeout(() =>{
+      for(let i = 0; i < displayOff.length; i++){
+        displayOff[i].style.display = "none";
+      }},200
+    )
   }
 
   function displayAll(param){
     let displayAll = document.getElementsByClassName(param);
     for(let i = 0; i < displayAll.length; i++){
-      displayAll[i].style.display = "flex";
+      displayAll[i].style.opacity='1';
     }
+    setTimeout(() =>{
+      for(let i = 0; i < displayAll.length; i++){
+        displayAll[i].style.display = "flex";
+      }
+    },210)
   }

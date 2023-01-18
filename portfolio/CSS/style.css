@@ -78,7 +78,7 @@ body{
         border: solid 1px var(--lemonMeringue);
         background-color: var(--jet);
         transition: all 0.5s;
-        display: flex;
+        display:flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
