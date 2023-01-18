@@ -1,0 +1,57 @@
+@import "../../utils/color.css";
+
+.retext{
+    position: fixed;
+    margin-top: 1.25%;
+    width: 85%;
+    height: 85%;
+    border: solid 1px var(--lemonMeringue);
+    background-color:var(--jet);
+    transition: all 0.5s;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+}
+
+.cross{
+    position: fixed;
+    right: 8.7%;
+    top: 9%;
+    width: 1.5%;
+    height: 3%;
+    display:block ;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px var(--lemonMeringue);
+}
+
+.cross45 {
+    position: absolute;
+    top:  45%;
+    left: 0.5%;
+    border: inherit;
+    width: 90%;
+    rotate: 45deg;
+}
+
+.cross225 {
+    position: absolute;
+    top: 45%;
+    left: 0.5%;
+    border: inherit;
+    width: 90%;
+    rotate: -45deg;
+}
+
+.cross:hover{
+    border: solid 2px var(--jet);
+    background-color: var(--lemonMeringue);
+}
+
+.cross:hover .cross225 {
+    background-color: var(--jet);
+}
+
+.cross:hover .cross45 {
+    background-color: var(--jet);
+}
