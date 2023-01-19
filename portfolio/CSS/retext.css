@@ -72,7 +72,6 @@
     flex-direction: row;
     align-items: flex-start ;
     flex-wrap: wrap;
-    overflow: hidden;
 }
 
 .result{
@@ -167,6 +166,13 @@
 .retext .img1{
     margin-top: 2%;
     width: auto;
+    height: 90%;
+}
+
+.retext .img2{
+    margin-top: 2%;
+    width: auto;
+    margin-left: 5%;
     height: 90%;
 }
 
