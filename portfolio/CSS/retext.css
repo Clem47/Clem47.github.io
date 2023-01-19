@@ -71,7 +71,8 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start ;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .result{
@@ -178,5 +179,5 @@
 .retext p{
     color: var(--lemonMeringue);
     width: 90%;
-    margin-bottom: 5%;
+    height: 5%;
 }
