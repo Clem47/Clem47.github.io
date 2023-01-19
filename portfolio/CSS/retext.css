@@ -3,8 +3,8 @@
 .retext{
     position: fixed;
     margin-top: 1.25%;
-    width: 85%;
-    height: 85%;
+    width: 80%;
+    height: 80%;
     border: solid 1px var(--lemonMeringue);
     background-color:var(--jet);
     transition: all 0.5s;
@@ -14,12 +14,15 @@
 }
 
 .cross{
-    position: fixed;
-    right: 8.7%;
-    top: 9%;
+    position: absolute;
     width: 1.5%;
+    left: 87.5%;
+    top: 12.5%;
     height: 3%;
     display:block ;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
     align-items: center;
     justify-content: center;
     border: solid 1px var(--lemonMeringue);
@@ -44,14 +47,15 @@
 }
 
 .cross:hover{
-    border: solid 2px var(--jet);
     background-color: var(--lemonMeringue);
 }
 
 .cross:hover .cross225 {
     background-color: var(--jet);
+    border: solid 1px var(--jet);
 }
 
 .cross:hover .cross45 {
+    border: solid 1px var(--jet);
     background-color: var(--jet);
 }

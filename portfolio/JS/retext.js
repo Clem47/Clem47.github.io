@@ -10,8 +10,9 @@ const lowatem = document.querySelector('div.projLowatem');
 const robotCup = document.querySelector('div.projRobotCup');
 const snek = document.querySelector('div.projSnek');
 const maze = document.querySelector('div.projMaze');
+const cross = document.querySelector('div.cross');
 
-document.querySelector('div.cross').addEventListener('click', 
+cross.addEventListener('click', 
     function() {
         let displayAll = document.getElementsByClassName("retext");
         for(let i = 0; i < displayAll.length; i++){
@@ -21,7 +22,9 @@ document.querySelector('div.cross').addEventListener('click',
         for(let i = 0; i < displayAll.length; i++){
             displayAll[i].style.visibility = "hidden";
         }
-        },200)
+        },100)
+        cross.style.opacity = '0';
+        cross.style.visibility = 'hiden';
         showAll('project');
     }
 );
@@ -95,5 +98,9 @@ function showAll(param){
     
     for(let i = 0; i < displayOff.length; i++){
       displayOff[i].style.opacity='1';
+    }
+    if(param != 'project') {
+        cross.style.visibility = 'visible';
+        cross.style.opacity = '1';
     }
 }
