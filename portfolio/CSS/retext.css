@@ -10,6 +10,9 @@
     transition: all 0.5s;
     visibility: hidden;
     opacity: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     display: flex;
 }
 
@@ -58,4 +61,122 @@
 .cross:hover .cross45 {
     border: solid 1px var(--jet);
     background-color: var(--jet);
+}
+
+.retext div{
+    width: 48.5%;
+    height: 48%;
+    margin-left: 1%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start ;
+    flex-wrap:wrap;
+}
+
+.result{
+    position: relative;
+    align-items: center;
+}
+
+.specifications{
+    position: relative;
+}
+
+.tools{
+    position: relative;
+}
+
+.skill{
+    position: relative;
+}
+
+.result::before {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    width: 50%;
+    border-bottom: 1px solid var(--lemonMeringue);
+  }
+
+.result::after {
+    content: "";
+    position: absolute;
+    right: -1px;
+    top: 50%;
+    height: 50%;
+    border-right: 1px solid var(--lemonMeringue);
+  }
+
+.specifications::before {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    right: 50%;
+    width: 50%;
+    border-bottom: 1px solid var(--lemonMeringue);
+  }
+
+.specifications::after {
+    content: "";
+    position: absolute;
+    left: -1px;
+    top: 50%;
+    height: 50%;
+    border-left: 1px solid var(--lemonMeringue);
+  }
+
+.tools::before {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: 50%;
+    width: 50%;
+    border-top: 1px solid var(--lemonMeringue);
+  }
+
+.tools::after {
+    content: "";
+    position: absolute;
+    right: -1px;
+    bottom: 50%;
+    height: 50%;
+    border-right: 1px solid var(--lemonMeringue);
+  }
+
+.skill::before {
+    content: "";
+    position: absolute;
+    top: -1px;
+    right: 50%;
+    width: 50%;
+    border-top: 1px solid var(--lemonMeringue);
+  }
+
+.skill::after {
+    content: "";
+    position: absolute;
+    left: -1px;
+    bottom : 50%;
+    height: 50%;
+    border-left: 1px solid var(--lemonMeringue);
+  }
+
+.retext .img1{
+    margin-top: 2%;
+    width: auto;
+    height: 90%;
+}
+
+.retext h1{
+    color: var(--naplesYellow);
+    width: auto;
+    font: bold;
+}
+
+.retext p{
+    color: var(--lemonMeringue);
+    width: 90%;
+    margin-bottom: 5%;
 }

@@ -51,6 +51,7 @@ body{
         color: var(--jet);
         border-radius: 25px;
         transition: background 0.4s cubic-bezier(0.33, 0.66, 0.66, 1);
+        cursor: pointer;
     }
 
     .projects{
@@ -68,6 +69,7 @@ body{
 
     ::-webkit-scrollbar {
         size: 0px;
+        color: transparent;
     }
 
     .project{
@@ -85,6 +87,7 @@ body{
 
     .project:hover{
         transform: scale(1.05);
+        cursor: pointer;
     }
 
     .picture{
